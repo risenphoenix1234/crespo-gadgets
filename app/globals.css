@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: #141414;
+}
+
+::selection {
+  background-color: #D4AF37;
+  color: #ffffff;
+}
+
+/* Thin gold scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #9A7B1F;
+  border-radius: 999px;
+}
+
+@layer components {
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-gold-gradient text-black font-semibold px-7 py-3 tracking-wide transition-transform duration-300 hover:scale-[1.03] hover:shadow-gold active:scale-[0.98];
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-gold/60 text-gold font-semibold px-7 py-3 tracking-wide transition-colors duration-300 hover:bg-gold hover:text-black;
+  }
+  .eyebrow {
+    @apply text-xs uppercase tracking-[0.3em] text-gold/80 font-semibold;
+  }
+  .section-pad {
+    @apply max-w-7xl mx-auto px-6 sm:px-10 lg:px-20 py-20 md:py-28;
+  }
+}
