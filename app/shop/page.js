@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Shop — NOIR',
-}
+  title: "Shop — CRESPO",
+};
 
 export default function ShopPage() {
   return (
@@ -15,5 +15,5 @@ export default function ShopPage() {
         Collection section.
       </p>
     </section>
-  )
+  );
 }

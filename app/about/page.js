@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'About — NOIR',
-}
+  title: "About — CRESPO",
+};
 
 export default function AboutPage() {
   return (
@@ -10,10 +10,10 @@ export default function AboutPage() {
         Our story
       </h1>
       <p className="text-neutral-400 max-w-xl leading-relaxed">
-        NOIR was founded on a simple idea: buying a flagship phone should feel
+        CRESPO was founded on a simple idea: buying a flagship phone should feel
         as considered as the device itself. Add your brand story, timeline and
         team here.
       </p>
     </section>
-  )
+  );
 }

@@ -1,8 +1,8 @@
-import ContactForm from '@/components/ContactForm'
+import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
-  title: 'Contact — NOIR',
-}
+  title: "Contact — CRESPO",
+};
 
 export default function ContactPage() {
   return (
@@ -14,5 +14,5 @@ export default function ContactPage() {
 
       <ContactForm />
     </section>
-  )
+  );
 }
