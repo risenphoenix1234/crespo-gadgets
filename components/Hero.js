@@ -71,7 +71,7 @@ const Hero = () => {
             viewport={{ once: true }}
             custom={0.4}
             variants={fadeUp}
-            className="mt-8 text-neutral-600 text-lg max-w-md leading-relaxed"
+            className="mt-8 text-neutral-600 text-md sm:text-lg max-w-md leading-relaxed"
           >
             Brand new phones, UK-used phones, swap deals and accessories &mdash;
             iPhone, Samsung, Tecno, Infinix &amp; Redmi. Order online or chat us
