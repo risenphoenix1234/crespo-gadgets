@@ -1,11 +1,11 @@
 import "./globals.css";
-import { Philosopher, Lobster_Two } from "next/font/google";
+import { Valley_Sans, Lobster_Two } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const philosopher = Philosopher({
+const valleySans = Valley_Sans({
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-display",
   display: "swap",
 });
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${philosopher.variable} ${lobsterTwo.variable}`}
+      className={`${valleySans.variable} ${lobsterTwo.variable}`}
     >
       <body className="font-body bg-white text-neutral-900 antialiased">
         <Navbar />
