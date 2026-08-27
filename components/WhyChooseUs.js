@@ -8,8 +8,8 @@ const features = [
     desc: "Nationwide delivery in 48 hours, tracked door-to-door in discreet matte-black packaging.",
   },
   {
-    title: "Extended Warranty",
-    desc: "Two full years of coverage plus one free screen replacement, no questions asked.",
+    title: "After-Sales Support",
+    desc: "Dedicated support and assistance for every phone we sell, well beyond the sale.",
   },
   {
     title: "Trade-In Value",
