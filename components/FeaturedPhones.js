@@ -23,6 +23,7 @@ const categories = [
       'iPhone 12',
       'iPhone 11',
       'iPhone XR',
+      'iPhone 18 pre order',
       'Other iPhone model',
     ],
   },
